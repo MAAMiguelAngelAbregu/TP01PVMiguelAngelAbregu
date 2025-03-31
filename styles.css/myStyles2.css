@@ -21,10 +21,15 @@ align-items: center;
 }
 #caja1, #caja2, #caja3{
     width: 30%;
-    height: 500px;
+    height: 800px;
     background-color: rgb(217, 174, 119);
     margin: 20px;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 10px;
+}
+#caja1 img, #caja2 img, #caja3 img{
+width: 400px;
+height: 250px;
+align-items: auto;
 }
