@@ -1,0 +1,83 @@
+header{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #2e2a2a;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0.1);  
+}
+ nav ul{
+    display: flex;
+    background-color:#bd9f9f;
+    opacity: 0,5;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 5px;
+    margin: 1px;
+ }
+.nav{
+   margin-right: 20px;
+   color: #2e2a2a;
+}
+
+.nav:last-child{
+    margin-right: 10px;
+}
+
+body{
+    background-color: rgba(239, 228, 228, 0.488);
+}
+p{
+    color: rgb(11, 11, 11);
+    padding: 5px;
+
+}
+
+
+h2{
+    font-size: 30px;
+color: #7b0606;
+font-family: 'Open Sans';
+}
+
+
+ #ubicacion , #cultura , #eventos{
+    width: 800px;
+    margin: 20px ;
+    padding: 20px;
+    border: 2px solid #ddd cadetblue;
+    border-right: 10px;
+    float: left;
+}
+#ubicacion{
+   clear: left; 
+}
+#cultura{
+    clear: left;
+}
+#eventos{
+    clear: left;
+}
+
+#contenedor{
+align-content: end;
+width: 10px;
+height: 10px;
+margin: 20px;
+padding: 20px;
+}
+
+#contenedor p{
+    align-content: end;
+    align-items: center;
+    width: 600px;
+    right: 120px;
+    color: rgb(0, 0, 0)
+    
+}
