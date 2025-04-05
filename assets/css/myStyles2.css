@@ -1,5 +1,5 @@
 body{
-    background-image: url(../descarga.jpg);
+    background-image: url(../img/escudoTucuman.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat
@@ -8,8 +8,9 @@ body{
      
      
      img{
-    width: 100%;
-    height: 200%;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
     object-fit: cover;
     border-radius: 10px;
     }
@@ -19,17 +20,27 @@ body{
     justify-content: space-between;
     align-items: center;
     }
+
     #caja1, #caja2, #caja3{
         width: 30%;
-        height: 800px;
         background-color: rgb(217, 174, 119);
         margin: 20px;
         padding: 20px;
         border: 1px solid #ddd;
         border-radius: 10px;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+        
     }
     #caja1 img, #caja2 img, #caja3 img{
-    width: 400px;
-    height: 250px;
+    width: 100%;
+    height: auto;
     align-items: auto;
+    margin: 0 auto;
+    }
+
+    .titulo, p{
+      margin: 0 auto;
+      word-wrap: break-word;
     }

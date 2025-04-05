@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos.css/myStyles3.css">
+    <link rel="stylesheet" href="assets/css/myStyles3.css">
     <title>contacto</title>
 </head>
 <body>
@@ -24,17 +24,21 @@
     </div>
 
     <script>
-     function enviarFormulario(){  
-     var apellido = document.getElementById("apellido").value;
-     var nombre = document.getElementById("nombre").value;
+
+     function enviarFormulario(){ 
+
+   
+     let apellido = document.getElementById("apellido").value;
+     let nombre = document.getElementById("nombre").value;
 
      console.log("Nombre" , nombre);
      console.log("Apellido", apellido);
     
       
-     alert("nombre" +nombre "apellido" +apellido);
+     alert("Nombre: " + nombre + ", Apellido: " + apellido);
      }
-    //sentencias de programacion
+     
     </script>
+    
 </body>
 </html>
